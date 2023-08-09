@@ -8,6 +8,8 @@ public class Main {
         Point second = new Point(3, 1);
         Point third = new Point(-1, -3);
         System.out.println(first.distance(third));
+        System.out.println(third.distance(first));
+        System.out.println(third.distance(new Point(5,8)));
 
         System.out.println("distance(0,0)= " + first.distance());
         System.out.println("distance(second)= " + first.distance(second));
